@@ -39,6 +39,8 @@ def main():
         refresh_results = []
 
         for workbook in all_workbooks:
+            start_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            is_postgres = False
             try:
                 # 데이터 연결 정보 로드
                 server.workbooks.populate_connections(workbook)
@@ -50,32 +52,48 @@ def main():
                 )
 
                 if is_postgres:
-                    start_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                     print(f"[{start_time}] Triggering refresh: {workbook.name}")
                     
                     # 추출 새로고침 작업 요청
                     job = server.workbooks.refresh(workbook.id)
                     
-                    # 작업 완료 대기 (기본적으로 성공/실패까지 대기)
+                    # 작업 완료 대기
                     job_status = server.jobs.wait_for_job(job.id)
                     
                     end_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                    success = "Success" if job_status.finish_code == 0 else f"Failed({job_status.finish_code})"
+                    status = "Success" if job_status.finish_code == 0 else f"Failed({job_status.finish_code})"
                     
-                    print(f"[{end_time}] Result: {success} (Job ID: {job.id})")
+                    print(f"[{end_time}] Result: {status} (Job ID: {job.id})")
                     
-                    # 결과 저장
                     refresh_results.append({
                         'Workbook Name': workbook.name,
                         'Workbook ID': workbook.id,
                         'Start Time': start_time,
                         'End Time': end_time,
-                        'Status': success,
-                        'Job ID': job.id
+                        'Status': status,
+                        'Job ID': job.id,
+                        'Error Message': ""
                     })
                 
             except Exception as e:
-                print(f"Error processing {workbook.name}: {e}")
+                # PostgreSQL 워크북인 경우에만 실패 로그 남김
+                if is_postgres:
+                    end_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                    error_msg = str(e).replace('\n', ' ')
+                    print(f"[{end_time}] Error processing {workbook.name}: {error_msg}")
+                    
+                    refresh_results.append({
+                        'Workbook Name': workbook.name,
+                        'Workbook ID': workbook.id,
+                        'Start Time': start_time,
+                        'End Time': end_time,
+                        'Status': "Failed",
+                        'Job ID': "N/A",
+                        'Error Message': error_msg
+                    })
+                else:
+                    # postgres가 아닌 워크북에서 발생한 에러는 무시하거나 간단히 출력
+                    pass
 
         # CSV 파일에 결과 기록 (추가 모드)
         if refresh_results:
