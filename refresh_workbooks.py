@@ -1,8 +1,12 @@
 import os
 import tableauserverclient as TSC
+from dotenv import load_dotenv
 
 
 def main():
+    # .env 파일 로드 (로컬 개발용)
+    load_dotenv()
+
     # 환경 변수 로드
     server_url = os.environ.get('TABLEAU_SERVER_URL')
     token_name = os.environ.get('TABLEAU_TOKEN_NAME')
