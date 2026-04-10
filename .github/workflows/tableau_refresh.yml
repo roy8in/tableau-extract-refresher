@@ -2,8 +2,9 @@ name: Tableau Extract Refresh Automation
 
 on:
   schedule:
-    # 매일 한국 시간 오전 9시 (UTC 00:00) 실행
-    - cron: '0 0 * * *'
+    # 매일 한국 시간 오전 8시 실행
+    # (UTC 기준 전날 오후 11시)
+    - cron: '0 23 * * *'
   workflow_dispatch:
     # 수동 실행 버튼 활성화
 
