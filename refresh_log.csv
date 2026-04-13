@@ -1,0 +1,6 @@
+﻿Workbook Name,Workbook ID,Start Time,End Time,Status,Job ID,Error Message
+Google Trend,bb430b45-8206-48da-afcd-c76d21cc435c,2026-04-13 01:06:14,2026-04-13 01:07:56,Success,fc3793e2-1a1b-4792-a3c8-9b36d39fbb60,
+Equity Dashboard,af1428a6-d8b9-4d61-ac55-ef123c5d6eeb,2026-04-13 01:07:56,2026-04-13 01:10:37,Success,537bfc48-4f4f-4c58-9960-e9c0a1e78831,
+IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-04-13 01:10:37,2026-04-13 01:11:30,Success,6bd5aac4-6ad7-40bf-8c8f-387d849f187c,
+Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-04-13 01:11:30,2026-04-13 01:13:12,Success,bad2b3d1-a0d0-4aa0-b2df-fcab9339b327,
+AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-04-13 01:13:12,2026-04-13 01:15:23,Success,b89e092f-c768-4918-9086-1adf69876d56,
