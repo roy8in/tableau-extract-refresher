@@ -36,3 +36,9 @@ IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-04-18 23:35:16,2026-04-18 23:36:09
 Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-04-18 23:36:09,2026-04-18 23:36:23,Failed,N/A,Job eb0784e4-9392-45a6-8948-bb0055c7fe14 failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
 AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-04-18 23:36:23,2026-04-18 23:38:05,Success,1320d01f-f10d-40f0-b801-4ac392840c9b,
 Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-04-18 23:38:05,2026-04-18 23:38:06,Failed,N/A,  	403180: Bad Request 		Full extract refresh operation for the workbook '7a18e082-9c16-4d03-afa2-b6b8bf86af7e' is not allowed.. (0x5CE10192 : Full refresh extract operation for the workbook is not allowed.)
+Google Trend,bb430b45-8206-48da-afcd-c76d21cc435c,2026-04-19 23:32:25,2026-04-19 23:33:38,Success,55b28936-e490-46a5-af2a-4825bbaac932,
+Equity Dashboard,af1428a6-d8b9-4d61-ac55-ef123c5d6eeb,2026-04-19 23:33:38,2026-04-19 23:37:20,Success,73be452a-c2d5-4580-98f6-9de635fca3da,
+IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-04-19 23:37:20,2026-04-19 23:39:01,Success,f370e278-b285-4085-bdd1-4bb7a01e1908,
+Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-04-19 23:39:01,2026-04-19 23:41:12,Failed,N/A,Job 808dba6c-4bb2-49e7-ad49-54ea57476668 failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
+AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-04-19 23:41:13,2026-04-19 23:42:05,Success,27e0a9de-0bb3-435d-8f1b-451dad3df868,
+Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-04-19 23:42:05,2026-04-19 23:42:19,Failed,N/A,Job 16137ec8-a68b-481e-9def-379b14186376 failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
