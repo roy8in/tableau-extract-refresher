@@ -42,3 +42,9 @@ IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-04-19 23:37:20,2026-04-19 23:39:01
 Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-04-19 23:39:01,2026-04-19 23:41:12,Failed,N/A,Job 808dba6c-4bb2-49e7-ad49-54ea57476668 failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
 AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-04-19 23:41:13,2026-04-19 23:42:05,Success,27e0a9de-0bb3-435d-8f1b-451dad3df868,
 Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-04-19 23:42:05,2026-04-19 23:42:19,Failed,N/A,Job 16137ec8-a68b-481e-9def-379b14186376 failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
+Google Trend,bb430b45-8206-48da-afcd-c76d21cc435c,2026-04-20 00:07:12,2026-04-20 00:08:04,Success,e1d349be-e841-4055-a8be-a8b0883d395a,
+Equity Dashboard,af1428a6-d8b9-4d61-ac55-ef123c5d6eeb,2026-04-20 00:08:04,2026-04-20 00:11:47,Success,b29075cf-947d-4486-8ba7-02648167de90,
+IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-04-20 00:11:47,2026-04-20 00:12:40,Success,552c7065-5eb0-4f42-9fcf-2ba6fec5969b,
+Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-04-20 00:12:40,2026-04-20 00:13:54,Failed,N/A,Job 6c660555-1f17-44e9-8d50-b54c5ab36a79 failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
+AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-04-20 00:13:54,2026-04-20 00:15:07,Success,905451d0-a7fe-46c8-ade1-e706623fcac7,
+Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-04-20 00:15:07,2026-04-20 00:16:20,Failed,N/A,Job 15295737-9fb0-441f-8669-d4a6947e55e9 failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
