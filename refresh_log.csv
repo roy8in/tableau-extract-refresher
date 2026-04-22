@@ -66,3 +66,9 @@ IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-04-21 23:37:03,2026-04-21 23:37:55
 Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-04-21 23:37:56,2026-04-21 23:39:08,Success,7f6db499-0218-41a9-81c1-d58cb8a847ed,
 AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-04-21 23:39:08,2026-04-21 23:40:50,Success,7bad1a52-e5b1-4c3e-96b5-7f46957b4ec4,
 Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-04-21 23:40:50,2026-04-21 23:41:42,Success,19f17b7c-d3e1-46dc-a458-68c26563acf0,
+Google Trend,bb430b45-8206-48da-afcd-c76d21cc435c,2026-04-22 23:42:22,2026-04-22 23:42:42,Failed,N/A,Job 378723e0-407e-4eb5-b21b-57b3076678bc failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
+Equity Dashboard,af1428a6-d8b9-4d61-ac55-ef123c5d6eeb,2026-04-22 23:42:42,2026-04-22 23:45:55,Success,8bf54a9e-8a4e-4672-9036-03123b2d3c6b,
+IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-04-22 23:45:55,2026-04-22 23:46:51,Failed,N/A,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-04-22 23:46:51,2026-04-22 23:48:04,Success,b053b1aa-48c2-4ec0-8d3a-4b19cabcdbd1,
+AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-04-22 23:48:04,2026-04-22 23:49:47,Success,1aef8724-d45e-4169-b7eb-317b11a384cf,
+Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-04-22 23:49:47,2026-04-22 23:51:59,Success,b440d2d2-99af-4639-860b-5a481caea272,
