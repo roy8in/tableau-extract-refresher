@@ -176,3 +176,9 @@ Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-05-09 23:49:27,
 AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-05-09 23:52:09,2026-05-09 23:53:52,Success,5cb2cccb-7076-4b49-9d04-21213b87a77e,
 Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-05-09 23:53:52,2026-05-09 23:55:34,Success,28bd7609-5b0c-4ed8-924f-eb296ce03c31,
 Google Trend,176b0932-aeec-42c1-860b-fad8dbe5fd9c,2026-05-09 23:55:34,2026-05-09 23:56:12,Failed,N/A,Job d351d968-c4e2-4d72-8f64-d6db10e99bcc failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
+Equity Dashboard,af1428a6-d8b9-4d61-ac55-ef123c5d6eeb,2026-05-10 23:48:13,2026-05-10 23:51:54,Success,0c764c2d-8e2e-4172-ad37-1b8f80850f34,
+IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-05-10 23:51:54,2026-05-10 23:52:46,Success,2e032379-a558-4109-9500-957f67c0d15f,
+Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-05-10 23:52:46,2026-05-10 23:53:59,Success,3d81d507-bdae-4e91-a526-61aaf22f827e,
+AQI,af30aab2-1ea6-487f-ab78-4b759c7c3f6f,2026-05-10 23:53:59,2026-05-10 23:55:11,Success,10a51dec-41a1-4057-b1f4-26b75db8d5de,
+Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-05-10 23:55:11,2026-05-10 23:56:03,Success,64d7521b-8b12-4fb5-8b69-c575cadf77ae,
+Google Trend,176b0932-aeec-42c1-860b-fad8dbe5fd9c,2026-05-10 23:56:03,2026-05-10 23:56:55,Failed,N/A,Job 8d1feab1-0105-4333-86ba-99666b2556f7 failed with notes ['com.tableausoftware.server.status.reporting.TableauRuntimeException: Missing password.\nInvalid username or password.']
