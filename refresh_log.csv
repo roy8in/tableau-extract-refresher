@@ -463,3 +463,12 @@ Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-06-20 00:13:30,2026-0
 Alternative Data,176b0932-aeec-42c1-860b-fad8dbe5fd9c,2026-06-20 00:15:42,2026-06-20 00:17:54,Success,3572d1dc-6294-427e-b12a-92ba57da14c3,
 Japan,65e915de-75f2-4fb9-93b4-342986fc7bb8,2026-06-20 00:17:54,2026-06-20 00:17:54,Failed,N/A,  	403180: Bad Request 		Full extract refresh operation for the workbook '65e915de-75f2-4fb9-93b4-342986fc7bb8' is not allowed.. (0x5CE10192 : Full refresh extract operation for the workbook is not allowed.)
 Macro Snapshot,8ac89db3-eb04-459d-9db9-0737d9bc1803,2026-06-20 00:17:54,2026-06-20 00:17:55,Failed,N/A,  	403180: Bad Request 		Full extract refresh operation for the workbook '8ac89db3-eb04-459d-9db9-0737d9bc1803' is not allowed.. (0x5CE10192 : Full refresh extract operation for the workbook is not allowed.)
+Equity Index Snapshot,9d218af0-83af-41d8-af06-d8cb67d7d7d6,2026-06-21 00:02:43,2026-06-21 00:04:25,Success,bd3bb9c5-32a7-456f-b9fa-e691baf8c3f3,
+Global Inflation Monitor,cf777ca1-2fb5-4207-81d0-1cb78bbe655c,2026-06-21 00:04:28,2026-06-21 00:06:11,Success,4fe654bc-af90-47c2-8d09-27d4eb63b168,
+Equity Dashboard,af1428a6-d8b9-4d61-ac55-ef123c5d6eeb,2026-06-21 00:06:18,2026-06-21 00:09:31,Success,7cec673d-b6fe-41e1-9949-c02cdfd7873a,
+IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-06-21 00:09:31,2026-06-21 00:11:44,Success,c089e04d-3cee-4790-9df4-81b96136eb52,
+Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-06-21 00:11:44,2026-06-21 00:13:27,Success,4fdd5598-2697-450f-aaba-7b4e9968dd09,
+Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-06-21 00:13:27,2026-06-21 00:15:39,Success,1f702419-4511-4bd5-badd-855f795a7de9,
+Alternative Data,176b0932-aeec-42c1-860b-fad8dbe5fd9c,2026-06-21 00:15:39,2026-06-21 00:17:22,Success,be2e13b0-ad59-436f-97c4-4b2b0f35175e,
+Japan,65e915de-75f2-4fb9-93b4-342986fc7bb8,2026-06-21 00:17:22,2026-06-21 00:17:23,Failed,N/A,  	403180: Bad Request 		Full extract refresh operation for the workbook '65e915de-75f2-4fb9-93b4-342986fc7bb8' is not allowed.. (0x5CE10192 : Full refresh extract operation for the workbook is not allowed.)
+Macro Snapshot,8ac89db3-eb04-459d-9db9-0737d9bc1803,2026-06-21 00:17:23,2026-06-21 00:17:23,Failed,N/A,  	403180: Bad Request 		Full extract refresh operation for the workbook '8ac89db3-eb04-459d-9db9-0737d9bc1803' is not allowed.. (0x5CE10192 : Full refresh extract operation for the workbook is not allowed.)
