@@ -481,3 +481,10 @@ Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-06-22 00:16:47,2026-0
 Alternative Data,176b0932-aeec-42c1-860b-fad8dbe5fd9c,2026-06-22 00:18:00,2026-06-22 00:20:11,Success,8efc55aa-e51f-4346-bce6-9442d63b3ae4,
 Japan,65e915de-75f2-4fb9-93b4-342986fc7bb8,2026-06-22 00:20:12,2026-06-22 00:20:12,Failed,N/A,  	403180: Bad Request 		Full extract refresh operation for the workbook '65e915de-75f2-4fb9-93b4-342986fc7bb8' is not allowed.. (0x5CE10192 : Full refresh extract operation for the workbook is not allowed.)
 Macro Snapshot,8ac89db3-eb04-459d-9db9-0737d9bc1803,2026-06-22 00:20:12,2026-06-22 00:20:13,Failed,N/A,  	403180: Bad Request 		Full extract refresh operation for the workbook '8ac89db3-eb04-459d-9db9-0737d9bc1803' is not allowed.. (0x5CE10192 : Full refresh extract operation for the workbook is not allowed.)
+Equity Index Snapshot,9d218af0-83af-41d8-af06-d8cb67d7d7d6,2026-06-23 00:01:32,2026-06-23 00:04:45,Success,3c7a86ff-73af-421b-8230-8fe0c30484fb,
+Global Inflation Monitor,cf777ca1-2fb5-4207-81d0-1cb78bbe655c,2026-06-23 00:04:47,2026-06-23 00:08:00,Success,fc0cffff-0ff8-406a-9b04-d5255de55aef,
+Equity Dashboard,af1428a6-d8b9-4d61-ac55-ef123c5d6eeb,2026-06-23 00:08:05,2026-06-23 00:11:49,Success,6155e882-ba0d-4f20-9650-03d36cfbdd6c,
+IMF,6ac84523-3930-4030-9fe6-f834202595ad,2026-06-23 00:11:49,2026-06-23 00:12:16,Success,11271ecd-9076-41ca-8912-5f4b382e6176,
+Central Bank Sentiment,1c4296da-af18-4d8b-9f23-1ad75061c959,2026-06-23 00:12:17,2026-06-23 00:13:30,Success,d7f03273-049f-45fb-83ea-bb76cb66a118,
+Growth Dashboard,7a18e082-9c16-4d03-afa2-b6b8bf86af7e,2026-06-23 00:13:30,2026-06-23 00:15:12,Success,7e1b6704-08ee-4d55-9465-2f77ff7c7c7b,
+Alternative Data,176b0932-aeec-42c1-860b-fad8dbe5fd9c,2026-06-23 00:15:12,2026-06-23 00:17:24,Success,7bb4da99-da4c-4d8f-8b34-1c12090d7ce6,
